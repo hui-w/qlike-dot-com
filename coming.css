@@ -1,0 +1,17 @@
+.coming-soon {
+  margin-bottom: 50px;
+}
+
+.coming-soon h1 {
+  margin: 0;
+  padding: 5px 0 5px;
+  font-size: 20px;
+  font-weight: bold;
+}
+
+.coming-soon h2 {
+  margin: 0;
+  padding: 5px 0 0;
+  font-size: 12px;
+  font-weight: normal;
+}
