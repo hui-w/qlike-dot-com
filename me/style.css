@@ -1,0 +1,93 @@
+body {
+  font-family: "Source Sans Pro", "Helvetica Neue", Arial, sans-serif;
+  font-size: 14px;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  color: #34495e;
+  background-color: #fff;
+  margin: 0;
+}
+
+h1,
+h2,
+h3,
+h4,
+strong {
+  font-weight: 600;
+  color: #2c3e50;
+  margin: 0;
+  padding: 0;
+}
+
+h1.title {
+  margin-top: 1.0em;
+  font-size: 1.6em;
+  font-weight: bold;
+}
+
+h2.project-header {
+  margin: 50px 0 0;
+  font-size: 1.2em;
+  padding-bottom: 0.7em;
+  border-bottom: 1px solid #ddd;
+}
+
+h3 {
+  margin: 0.8em 0;
+}
+
+p.description {
+  margin: 0;
+  padding: 0;
+  line-height: 1.6em;
+  word-spacing: 0.05em;
+}
+
+ul {
+  padding-left: 1.5em;
+  line-height: 1.6em;
+  margin: 0;
+  padding-bottom: 1.2em;
+  display: block;
+  list-style-type: disc;
+}
+
+.content {
+  max-width: 700px;
+  margin: auto;
+}
+
+.duration::after {
+  content: ': ';
+  margin-right: 10px;
+}
+
+.project {
+  margin-bottom: 60px;
+}
+
+.skills {
+  display: flex;
+}
+
+.skills h3 {
+  min-width: 100px;
+  margin: 0;
+  padding: 0;
+}
+
+.skills ul {
+  display: flex;
+  align-items: center;
+  flex-wrap: wrap;
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+
+.skills li {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+  margin-left: 10px;
+}

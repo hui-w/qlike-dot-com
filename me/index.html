@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="utf-8">
+  <script src="vendor/vue.js"></script>
+  <link href="style.css" media="all" rel="stylesheet" />
+  <title>Project Experience</title>
+</head>
+
+<body>
+  <div id="app">
+    <div class="content">
+      <h1 class="title">{{ title }}</h1>
+      <div class="projects">
+        <project v-for="item in projects" v-bind:project="item">
+        </project>
+        <div>
+        </div>
+      </div>
+    </div>
+  </div>
+  <script src="./data/project-data.js"></script>
+  <script src="./component/project.js"></script>
+  <script src="./component/repeator.js"></script>
+  <script src="./component/app.js"></script>
+</body>
+
+</html>
