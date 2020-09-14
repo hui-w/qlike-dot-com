@@ -1,0 +1,56 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <title>Flex Cheatsheet</title>
+    <meta name="description"
+      content="Demos for W3C CSS Flexbox Specification http://www.w3.org/TR/css-flexbox-1/">
+
+    <meta name="viewport" content="width=device-width,minimum-scale=1,initial-scale=1">
+
+    <meta property="og:title" content="Flex Cheatsheet">
+    <meta property="og:type" content="website">
+    <meta property="og:description"
+      content="Demos for W3C CSS Flexbox Specification http://www.w3.org/TR/css-flexbox-1/">
+  <link href="./styles.css" rel="stylesheet"></head>
+
+  <body class="page" data-theme="sunny">
+    <h1 class="visually-hidden">Flex Cheatsheet</h1>
+
+    <div class="page-container">
+      <main class="page-main"></main>
+
+      <aside class="page-aside page-aside--collapsed">
+        <button type="button" class="page-aside__toggler">
+          <span class="visually-hidden">Toggle nav</span>
+        </button>
+
+        <div class="page-aside__content">
+          <p
+            class="
+              page-aside__clarification
+              page-aside__container
+            "><a href="http://www.w3.org/TR/css-flexbox-1/">W3C CSS Flexbox Specification</a></p>
+        </div>
+      </aside>
+    </div>
+
+    <button class="theme-control" type="button">Change theme</button>
+
+    <template id="demo-tmpl">
+      <div class="demo notranslate">
+        <div class="demo__content">
+          <div class="demo__view">
+            <div class="parent">
+              <div class="child"></div>
+              <div class="child"></div>
+              <div class="child child--featured"></div>
+              <div class="child"></div>
+            </div>
+          </div>
+
+          <div class="demo__code" spellcheck="false"></div>
+        </div>
+      </div>
+    </template>
+  <script type="text/javascript" src="./bundle.js"></script></body>
+</html>
